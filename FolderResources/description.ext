@@ -1,41 +1,41 @@
 // GENERAL
-disabledAI				= 1; 			// 0 = Fill with AI, 1 = Don't fill with AI. (Leave this as it is).
-joinUnassigned			= 1; 			// 0 = Join server assigned, 1 = Join unassigned. (Leave this as it is).
-disableChannels[]  		= {0,1,2,3,6};		// 0 = Global, 1 = Side, 2 = Command, 3 = Group, 4 = Vehicle, 5 = Direct, 6 = System. (Leave this as it is unless told otherwise).
-enableDebugConsole		= 1; 			// (Leave this as it is, DO NOT CHANGE THIS!!!).
-showGPS					= 1;			// (Leave this as it is unless told otherwise).
-showCompass				= 1;			// (Leave this as it is unless told otherwise).
-showWatch				= 1;			// 0 = Disable watch, 1 = Enable watch. (Leave this as it is unless told otherwise).
+disabledAI				= 1; 			// DO NOT EDIT THIS!
+joinUnassigned			= 1; 			// DO NOT EDIT THIS!
+disableChannels[]  		= {0,1,2,3,6};		// Leave this as it is unless told otherwise. 0 = Global, 1 = Side, 2 = Command, 3 = Group, 4 = Vehicle, 5 = Direct, 6 = System. (Leave this as it is unless told otherwise).
+enableDebugConsole		= 1; 			// DO NOT EDIT THIS!
+showGPS					= 1;			// Leave this as it is unless told otherwise.
+showCompass				= 1;			// Leave this as it is unless told otherwise.
+showWatch				= 1;			// Leave this as it is unless told otherwise.
 
 // CORPSE CLEANUP
-corpseManagerMode 		= 3;			// Leave this as it is.
-corpseLimit 			= 15;			// Leave this as it is.
-corpseRemovalMinTime 	= 10;			// Leave this as it is.
-corpseRemovalMaxTime	= 900;			// Leave this as it is.
+corpseManagerMode 		= 3;			// DO NOT EDIT THIS!
+corpseLimit 			= 15;			// DO NOT EDIT THIS!
+corpseRemovalMinTime 	= 10;			// DO NOT EDIT THIS!
+corpseRemovalMaxTime	= 900;			// DO NOT EDIT THIS!
 
 // WRECK CLEANUP
-wreckManagerMode		= 3;			// Leave this as it is.
-wreckLimit				= 10;			// Leave this as it is.
-wreckRemovalMinTime		= 10;			// Leave this as it is.
-wreckRemovalMaxTime		= 900;			// Leave this as it is.
+wreckManagerMode		= 3;			// DO NOT EDIT THIS!
+wreckLimit				= 10;			// DO NOT EDIT THIS!
+wreckRemovalMinTime		= 10;			// DO NOT EDIT THIS!
+wreckRemovalMaxTime		= 900;			// DO NOT EDIT THIS!
 
 class Header {
-	gameType 			= Coop; 		// Leave this as it is.
-	minPlayers 			= 1; 			// Leave this as it is.
-	maxPlayers 			= 16; 			// Leave this as it is.
+	gameType 			= Coop; 		// DO NOT EDIT THIS!
+	minPlayers 			= 1; 			// DO NOT EDIT THIS!
+	maxPlayers 			= 24; 			// DO NOT EDIT THIS!
 	};
 
 // LOAD SCREEN
-author					= "[SM]BJSGaming";	//Replace 'BJSGaming' with whatever your in-game name is (leave the '[SM]').
-onLoadName				= "Operation No Name";	// Set this to whatever your missions' name is.
-onLoadMission			= "Operation No Name is a go!";	// This is the little message that comes under the image when loading.
-overviewText			= "Operation No Name";	// This is what myself and other admins see when selecting the mission.
-loadScreen				= "pic.png"; // The image that is shown when the it loads (Make sure the name is the same. If it's not in the main folder, give the full directory).
+author					= "[SM]YOURNAME";	// Replace 'YOURNAME' with whatever your in-game name is (leave the '[SM]').
+onLoadName				= "Operation NAME OF MISSION";	// Replace 'YOURNAME' with whatever your missions' name is.
+onLoadMission			= "Operation No Name is a go!";	// This is the little message that comes under the image when loading. Do not edit it!
+overviewText			= "Operation NAME OF MISSION";	// Same as the 'onLoadName' variable.
+loadScreen				= "pic.png"; // This is the image that is shown when the it loads (Make sure the name is the same. If it's not in the main folder, give the full directory).
 overviewPicture			= "\a3\Missions_F_gamma\data\img\showcase_arma_overview_ca.paa"; // Leave this as it is.
 
 // RESPAWN
-respawn					= 3;			// 0 = None, 1 = Bird, 2 = Instant, 3 = Base, 4 = Group, 5 = Side. (Leave this as 3 or base).
-respawnDelay 			= 30;		    // Time in seconds to respawn. (Leave this as it is unless given permission to o so otherwise).
-respawnDialog			= 0;			// 0 = Off, 1 = Score table on death. (Leave this as 0).
-respawnOnStart			= 0;			// Start mission as if each player just respawned (Dialogs etc). 1 = TRUE, 0 = FALSE. (Leave this as 0 unless it requires it).
-respawnButton 			= 1;			// Disables respawn button in menu? (Leave this as it is).
+respawn					= 3;			// 0 = None, 1 = Bird, 2 = Instant, 3 = Base, 4 = Group, 5 = Side. (Leave this as 3).
+respawnDelay 			= 30;		    // Time in seconds to respawn. (Leave this as it is unless given permission to do so otherwise).
+respawnDialog			= 0;			// DO NOT EDIT THIS!
+respawnOnStart			= 0;			// DO NOT EDIT THIS!
+respawnButton 			= 1;			// DO NOT EDIT THIS!
