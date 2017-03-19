@@ -1,7 +1,7 @@
 // GENERAL
 disabledAI				= 1; 			// DO NOT EDIT THIS!
 joinUnassigned			= 1; 			// DO NOT EDIT THIS!
-disableChannels[]  		= {0,1,2,3,6};		// Leave this as it is unless told otherwise. 0 = Global, 1 = Side, 2 = Command, 3 = Group, 4 = Vehicle, 5 = Direct, 6 = System. (Leave this as it is unless told otherwise).
+disableChannels[]  		= {0,1,2,3,6};		// 0 = Global, 1 = Side, 2 = Command, 3 = Group, 4 = Vehicle, 5 = Direct, 6 = System. Leave this as it is unless told otherwise.
 enableDebugConsole		= 1; 			// DO NOT EDIT THIS!
 showGPS					= 1;			// Leave this as it is unless told otherwise.
 showCompass				= 1;			// Leave this as it is unless told otherwise.
